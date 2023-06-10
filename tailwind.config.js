@@ -4,6 +4,9 @@ export default {
     "./index.html",
     "./src/**/*.{html,js,jsx}"],
   theme: {
+    fontFamily: {
+      'nav': ['Helvetica']
+    },
     extend: {},
   },
   plugins: [],
