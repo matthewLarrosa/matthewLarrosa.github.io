@@ -67,7 +67,6 @@ export default function Navbar() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
               <div className="font-nav font-bold text-xl ">Matthew Larrosa</div>
             </a>
             <button
@@ -129,15 +128,15 @@ export default function Navbar() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="flex flex-row flex-wrap justify-center gap-20 mx-auto w-screen py-32 sm:py-48 gap-y-10 lg:py-56">
           <div>
             <img className='w-96 h-96 rounded-full' src={headshot} alt="React Image" />
           </div>
-          <div className="text-center">
+          <div className="text-center self-center justify-self-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               Hello, Im Matt!
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-lg leading-2 text-gray-600">
               A computer science student making cool stuff!
             </p>
           </div>
