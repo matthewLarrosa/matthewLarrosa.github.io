@@ -149,7 +149,7 @@ export default function Navbar() {
             }}
           />
         </div>
-        <div className="flex flex-row flex-wrap justify-center gap-20 mx-auto w-screen py-32 sm:py-48 gap-y-10 lg:py-56">
+        <div className="flex flex-row flex-wrap justify-center gap-20 mx-auto w-auto py-32 sm:py-48 gap-y-10 lg:py-56">
           <div>
             <img className='w-96 h-96 rounded-full' src={headshot} alt="React Image" />
           </div>
