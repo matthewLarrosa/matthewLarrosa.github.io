@@ -5,9 +5,30 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import headshot from './Ellipse 1.png'
+import Typed from 'typed.js';
+import { useEffect, useRef } from "react";
 
 export default function Navbar() {
+  
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["I love learning new things.", "I love creating with React.", "Learn more about me below."], // Strings to display
+      // Speed settings, try diffrent values untill you get good results
+      startDelay: 300,
+      typeSpeed: 100,
+      backSpeed: 50,
+      backDelay: 100,
+      loop: true,
+    });
+
+    // Destropying
+    return () => {
+      typed.destroy();
+    };
+  }, []);
 
   return (
     <div className="bg-white">
@@ -134,11 +155,11 @@ export default function Navbar() {
           </div>
           <div className="text-center self-center justify-self-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Hello, Im Matt!
+              Hello, I'm Matt!
             </h1>
-            <p className="mt-6 text-lg leading-2 text-gray-600">
-              A computer science student making cool stuff!
-            </p>
+            <div id="typed" className="mt-6 text-2xl leading-2 text-gray-600">
+            <span ref={el}></span>
+            </div>
           </div>
         </div>
         <div
@@ -154,7 +175,6 @@ export default function Navbar() {
           />
         </div>
       </div>
-
     </div>
   )
 }
