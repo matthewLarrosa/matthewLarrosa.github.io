@@ -1,7 +1,6 @@
-import React from "react";
-import init from '../src/assets/init.svg'
-import crest from '../src/assets/FiuCrest.svg'
-import fiuLogo from '../src/assets/FiuLogo.svg'
+import init from '../assets/init.svg'
+import crest from '../assets/FiuCrest.svg'
+import fiuLogo from '../assets/FiuLogo.svg'
 
 function Education() {
   return (
