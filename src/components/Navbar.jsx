@@ -155,7 +155,7 @@ export default function Navbar() {
           </div>
           <div className="text-center self-center justify-self-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Hello, I'm Matt!
+              Hello, I&apos;m Matt!
             </h1>
             <div id="typed" className="mt-6 text-2xl leading-2 text-gray-600">
             <span ref={el}></span>
