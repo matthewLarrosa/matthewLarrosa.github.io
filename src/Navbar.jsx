@@ -4,7 +4,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
-import headshot from './Ellipse 1.png'
+import headshot from '../src/assets/Headshot.svg'
 import Typed from 'typed.js';
 import { useEffect, useRef } from "react";
 
