@@ -21,7 +21,7 @@ function Education() {
               in Computer Science.
             </div>
           </div>
-          <div className="flex flex-row justify-center space-x-20">
+          <div className="flex flex-row justify-center pb-8 space-x-20">
             <img className="h-60 w-60 p-1" src={init} alt="init" />
             <img className="h-60 w-60 p-1" src={crest} alt="FIU Crest" />
             <img

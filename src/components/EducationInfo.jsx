@@ -20,7 +20,7 @@ function EducationInfo() {
           aria-hidden="true"
         >
         <div
-            className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#009bfc] to-[#fc00a4] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+            className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#fc00a4] to-[#009bfc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
             style={{
               clipPath:
                 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
@@ -30,7 +30,7 @@ function EducationInfo() {
       <div className="flex justify-center mt-10">
         <div className="flex flex-row h-auto w-4/6 space-x-7 justify-center">
           <Tilt
-            className="h-auto w-2/5 bg-gray-400 rounded-xl"
+            className="h-auto w-2/5 bg-gray-400 mix-blend-multiply rounded-xl"
             options={defaultOptions}
             style={{ height: 500, width: 400 }}
           >
@@ -38,14 +38,14 @@ function EducationInfo() {
           </Tilt>
 
           <Tilt
-            className="h-auto w-2/5 bg-gray-400 rounded-xl"
+            className="h-auto w-2/5 bg-gray-400 mix-blend-multiply rounded-xl"
             options={defaultOptions}
             style={{ height: 500, width: 400 }}
           >
             <div>Junior Standing Graduting May 2025</div>
           </Tilt>
           <Tilt
-            className="h-auto w-2/5 bg-gray-400 rounded-xl"
+            className="h-auto w-2/5 bg-gray-400 mix-blend-multiply rounded-xl"
             options={defaultOptions}
             style={{ height: 500, width: 400 }}
           >
