@@ -15,42 +15,57 @@ const defaultOptions = {
 function EducationInfo() {
   return (
     <div className="relative isolate px-6 lg:px-8">
+      <div
+        className="absolute inset-x-0 -top-40 -z-50 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+        aria-hidden="true"
+      >
         <div
-          className="absolute inset-x-0 -top-40 -z-50 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-          aria-hidden="true"
-        >
-        <div
-            className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#fc00a4] to-[#009bfc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-            style={{
-              clipPath:
-                'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-            }}
-          />
-        </div>
+          className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[30.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#fc00a4] to-[#009bfc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+          style={{
+            clipPath:
+              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+          }}
+        />
+      </div>
       <div className="flex justify-center mt-10">
         <div className="flex flex-row h-auto w-4/6 space-x-7 justify-center">
           <Tilt
-            className="h-auto w-2/5 bg-gray-400 mix-blend-multiply rounded-xl"
+            className="flex justify-center h-auto w-2/5 bg-slate-100 mix-blend-multiply rounded-xl"
             options={defaultOptions}
-            style={{ height: 500, width: 400 }}
+            style={{ height: 300, width: 400 }}
           >
-            <div>3.54 GPA Dean Lists</div>
+            <div className="flex flex-col content-center text-center font-nav text-xl mt-3 pt-15 p-6">
+              <div className="font-bold">Relevent Course Work</div>
+              <div className="font-meduim">Data Structure</div>
+              <div className="font-meduim">Discrete Structures</div>
+              <div className="font-meduim">Computer Architecture</div>
+              <div className="font-meduim">Logic for Computer Science</div>
+              <div className="text-7xl">📚</div>
+            </div>
           </Tilt>
 
           <Tilt
-            className="h-auto w-2/5 bg-gray-400 mix-blend-multiply rounded-xl"
+            className="h-auto w-2/5 bg-slate-100 mix-blend-multiply rounded-xl"
             options={defaultOptions}
-            style={{ height: 500, width: 400 }}
+            style={{ height: 300, width: 400 }}
           >
-            <div>Junior Standing Graduting May 2025</div>
+            <div className="flex flex-col content-center text-center font-nav text-xl mt-3 pt-15 p-6">
+              <div className="font-bold">Pursuing a BS in Computer Science</div>
+              <div className="font-meduim">Graduating May 2025</div>
+              <div className="text-7xl">🎓</div>
+            </div>
           </Tilt>
           <Tilt
-            className="h-auto w-2/5 bg-gray-400 mix-blend-multiply rounded-xl"
+            className="h-auto w-2/5 bg-slate-100 mix-blend-multiply rounded-xl"
             options={defaultOptions}
-            style={{ height: 500, width: 400 }}
+            style={{ height: 300, width: 400 }}
           >
-            <div>
-              School Involement; UPE, BreakThroughTech, Google Student Club
+            <div className="flex flex-col content-center text-center font-nav text-xl mt-3 pt-15 p-6">
+              <div className="font-bold">School Organizations</div>
+              <div className="font-meduim">BreakThroughTECH</div>
+              <div className="font-meduim">INIT formerly UPE</div>
+              <div className="font-meduim">Google Student Club</div>
+              <div className="text-7xl">😎</div>
             </div>
           </Tilt>
         </div>
