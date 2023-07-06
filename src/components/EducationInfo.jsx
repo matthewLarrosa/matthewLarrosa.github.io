@@ -36,7 +36,7 @@ function EducationInfo() {
           >
             <div className="flex flex-col content-center text-center font-nav text-xl mt-3 pt-15 p-6">
               <div className="font-bold">Relevent Course Work</div>
-              <div className="font-meduim">Data Structure</div>
+              <div className="font-meduim">Data Structures</div>
               <div className="font-meduim">Discrete Structures</div>
               <div className="font-meduim">Computer Architecture</div>
               <div className="font-meduim">Logic for Computer Science</div>
