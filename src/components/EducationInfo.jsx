@@ -14,7 +14,7 @@ const defaultOptions = {
 
 function EducationInfo() {
   return (
-    <div className="relative isolate px-6 lg:px-8">
+    <div className="relative isolate">
       <div
         className="absolute inset-x-0 -top-40 -z-50 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         aria-hidden="true"
@@ -28,13 +28,13 @@ function EducationInfo() {
         />
       </div>
       <div className="flex justify-center mt-10">
-        <div className="flex flex-row h-auto w-4/6 space-x-7 justify-center">
+        <div className="flex flex-col h-auto w-auto justify-center md:w-4/6 md:flex-row md:space-x-7">
           <Tilt
-            className="flex justify-center h-auto w-2/5 bg-slate-100 mix-blend-multiply rounded-xl"
+            className="flex justify-center h-auto w-2/5 bg-slate-100 mix-blend-multiply rounded-xl mb-3"
             options={defaultOptions}
             style={{ height: 300, width: 400 }}
           >
-            <div className="flex flex-col content-center text-center font-nav text-xl mt-3 pt-15 p-6">
+            <div className="flex flex-col text-center font-nav text-xl mt-3 pt-15 p-6">
               <div className="font-bold">Relevent Course Work</div>
               <div className="font-meduim">Data Structures</div>
               <div className="font-meduim">Discrete Structures</div>
@@ -45,18 +45,18 @@ function EducationInfo() {
           </Tilt>
 
           <Tilt
-            className="h-auto w-2/5 bg-slate-100 mix-blend-multiply rounded-xl"
+            className="h-auto w-2/5 bg-slate-100 mix-blend-multiply rounded-xl mb-3"
             options={defaultOptions}
             style={{ height: 300, width: 400 }}
           >
-            <div className="flex flex-col content-center text-center font-nav text-xl mt-3 pt-15 p-6">
+            <div className="flex flex-col text-center font-nav text-xl mt-3 pt-15 p-6">
               <div className="font-bold">Pursuing a BS in Computer Science</div>
               <div className="font-meduim">Graduating May 2025</div>
               <div className="text-7xl">🎓</div>
             </div>
           </Tilt>
           <Tilt
-            className="h-auto w-2/5 bg-slate-100 mix-blend-multiply rounded-xl"
+            className="h-auto w-2/5 bg-slate-100 mix-blend-multiply rounded-xl mb-3"
             options={defaultOptions}
             style={{ height: 300, width: 400 }}
           >

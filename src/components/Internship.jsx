@@ -3,7 +3,7 @@ import teamPhoto from "../assets/Team Pic 2 Cropped.jpg";
 function Internship() {
   return (
     <div className="flex justify-center mt-20">
-      <div className="h-auto w-4/6 bg-slate-100 rounded-xl">
+      <div className="h-auto w-5/6 md:w-4/6 bg-slate-100 rounded-xl">
         <div className="flex flex-row justify-center">
           <div className="bg-slate-100 rounded-xl w-1/2">
             <div className="font-nav font-bold text-3xl">May 2023 Internship</div>
