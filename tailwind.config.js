@@ -5,7 +5,7 @@ export default {
     "./src/**/*.{html,js,jsx}"],
   theme: {
     fontFamily: {
-      'nav': ['inter']
+      nav : ['inter']
     },
     extend: {},
   },
