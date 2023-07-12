@@ -34,7 +34,7 @@ function EducationInfo() {
             options={defaultOptions}
             style={{ height: 300, width: 400 }}
           >
-            <div className="flex flex-col text-center font-nav text-xl mt-3 pt-15 p-6">
+            <div className="flex flex-col text-center overflow-hidden font-nav text-xl mt-3 pt-15 p-6">
               <div className="font-bold">Relevent Course Work</div>
               <div className="font-meduim">Data Structures</div>
               <div className="font-meduim">Discrete Structures</div>
