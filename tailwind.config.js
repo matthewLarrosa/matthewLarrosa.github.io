@@ -7,7 +7,8 @@ export default {
     fontFamily: {
       nav : ['inter']
     },
-    extend: {},
+    extend: {
+    },
   },
   plugins: [],
 }
