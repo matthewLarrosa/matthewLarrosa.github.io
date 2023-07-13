@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import Navbar from '../src/components/Navbar.jsx'
 import Education from '../src/components/Education.jsx'
-import EducationInfo from './components/EducationInfo'
-import Internship from './components/Internship'
+import EducationInfo from './components/EducationInfo.jsx'
+import Internship from './components/Internship.jsx'
+import Projects from './components/Projects.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -12,5 +13,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Education />
     <EducationInfo/>
     <Internship />
+    <Projects />
   </React.StrictMode>,
 )
