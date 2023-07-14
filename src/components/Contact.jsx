@@ -1,29 +1,30 @@
-// import React, { useRef } from "react";
-// import emailjs from "emailjs-com";]
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 function Contact() {
 
-  function sendEmail(e) {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    
     e.preventDefault();
 
-    emailjs.sendForm('gmail','template_fnbmug8', e.target, 'bZBnqpFaZzO8JO-BF')
-        .then((result) => {
+    emailjs.sendForm('service_z559epq', 'template_fnbmug8', form.current, 'bZBnqpFaZzO8JO-BF')
+      .then((result) => {
           console.log(result.text);
-        }, (error) => {
+      }, (error) => {
           console.log(error.text);
-        });
-  }
-
-//   YOUR_TEMPLATE_ID="template_fnbmug8"
-// YOUR_PUBLIC_KEY="bZBnqpFaZzO8JO-BF"
+      });
+      e.target.reset();
+  };
   
   return (
     <div className="flex justify-center flex-col mb-6">
       <div className="flex justify-center h-auto">
         <div className="font-nav font-bold text-3xl m-6">Contact Me</div>
       </div>
-      <div className="container">
-        <form onSubmit={sendEmail}>
+      <div className="flex justify-center container h-auto w-5/6 md:w-4/6 bg-slate-100 rounded-xl">
+        <form ref={form} onSubmit={sendEmail}>
           <div className="row pt-5 mx-auto">
             <div className="col-8 form-group mx-auto">
               <input
@@ -56,6 +57,7 @@ function Contact() {
                 cols="30"
                 rows="8"
                 placeholder="Your message"
+                name="message"
               ></textarea>
             </div>
             <div className="col-8 form-group mx-auto">
