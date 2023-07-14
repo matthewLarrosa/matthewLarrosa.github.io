@@ -6,6 +6,7 @@ import Education from '../src/components/Education.jsx'
 import EducationInfo from './components/EducationInfo.jsx'
 import Internship from './components/Internship.jsx'
 import Projects from './components/Projects.jsx'
+import Contact from './components/Contact.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -14,5 +15,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <EducationInfo/>
     <Internship />
     <Projects />
+    <Contact />
   </React.StrictMode>,
 )

@@ -2,11 +2,14 @@ import projectManager from "../assets/ReleaseManagementRecreation.png";
 
 function Projects() {
   return (
-    <div className="flex justify-center flex-col">
-        <div className="h-auto w-5/6 md:w-4/6">hello</div>
-      <div className="flex justify-center mt-10">
+    <div className="flex justify-center flex-col mb-6">
+      <div className="flex justify-center h-auto">
+        <div className="font-nav font-bold text-3xl m-6">Projects</div>
+      </div>
+      <div className="flex justify-center mt-2">
         <div className="h-auto w-5/6 md:w-4/6 bg-slate-100 rounded-xl">
           <div className="flex flex-col-reverse justify-center min-[1270px]:flex-row">
+    
             <div className="flex justify-center align-center ">
               <img
                 className="overflow-hidden h-auto w-auto rounded-b-xl min-[1270px]:rounded-b-lg min-[1270px]:max-w-lg min-[1270px]:p-5"
