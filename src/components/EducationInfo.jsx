@@ -45,14 +45,16 @@ function EducationInfo() {
           </Tilt>
 
           <Tilt
-            className="h-auto w-2/5 bg-slate-100 mix-blend-multiply rounded-xl mb-3"
+            className="flex justify-center h-auto w-2/5 bg-slate-100 mix-blend-multiply rounded-xl mb-3"
             options={defaultOptions}
             style={{ height: 300, width: 400 }}
           >
-            <div className="flex flex-col text-center font-nav text-xl mt-3 pt-15 p-6">
+            <div className="flex flex-col text-center overflow-hidden font-nav text-xl mt-3 pt-15 p-6">
               <div className="font-bold">Pursuing a BS in Computer Science</div>
               <div className="font-meduim">Graduating May 2025</div>
               <div className="text-7xl">🎓</div>
+              <div className="font-meduim">As of Summer 2023</div>
+              <div className="font-meduim">GPA 3.54</div>
             </div>
           </Tilt>
           <Tilt
