@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
+import { BsGithub } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 
 function Contact() {
   const form = useRef();
@@ -34,12 +36,14 @@ function Contact() {
         <div className="flex justify-center flex-col h-auto w-5/6 md:w-4/6 bg-slate-100 rounded-xl">
           <div className="flex justify-center text-center flex-col">
             <div className="font-sec font-bold text-xl m-5">
-            Feel free to send me an email or message me on my socials
+              Feel free to send me an email or message me on my socials
             </div>
-          <div className="flex justify-center flex-row">
-            <img>LinkedIn</img>
-            <img>Github</img>
-          </div>
+            <div className="flex justify-center flex-row">
+              <a href="https://github.com/matthewLarrosa">
+                <BsGithub className="text-4xl m-3" />
+              </a>
+              <BsLinkedin className="text-4xl m-3" />
+            </div>
           </div>
           <div>
             <form ref={form} onSubmit={sendEmail}>
