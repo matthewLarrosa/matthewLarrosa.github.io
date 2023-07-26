@@ -42,51 +42,51 @@ function Contact() {
               <a href="https://github.com/matthewLarrosa">
                 <BsGithub className="text-4xl m-3" />
               </a>
-              <BsLinkedin className="text-4xl m-3" />
+              <a href="https://www.linkedin.com/in/matthew-larrosa-19-9999ml/"><BsLinkedin className="text-4xl m-3" /></a>
             </div>
           </div>
-          <div>
+          <div className="flex justify-center">
             <form ref={form} onSubmit={sendEmail}>
-              <div className="row pt-5 mx-auto">
-                <div className="col-8 form-group mx-auto">
+              <div className="row pt-5 mx-auto w-full">
+                <div className="col-8 form-group mb-2 text-xl">
                   <input
                     type="text"
-                    className="form-control"
-                    placeholder="Name"
+                    className="form-control rounded-md w-72 font-sec border-slate-800 border-black border-2"
+                    placeholder=" Name"
                     name="name"
                   />
                 </div>
-                <div className="col-8 form-group mx-auto">
+                <div className="col-8 form-group mb-2 text-xl">
                   <input
                     type="email"
-                    className="form-control"
-                    placeholder="Email Address"
+                    className="form-control rounded-md w-72 font-sec border-slate-800 border-black border-2"
+                    placeholder=" Email Address"
                     name="email"
                   />
                 </div>
-                <div className="col-8 form-group mx-auto">
+                <div className="col-8 form-group mb-2 text-xl">
                   <input
                     type="text"
-                    className="form-control"
-                    placeholder="Subject"
+                    className="form-control rounded-md w-72 font-sec border-slate-800 border-black border-2"
+                    placeholder=" Subject"
                     name="subject"
                   />
                 </div>
-                <div className="col-8 form-group mx-auto">
+                <div className="col-8 form-group mb-2 text-xl">
                   <textarea
-                    className="form-control"
+                    className="form-control rounded-md w-96 font-sec border-slate-800 border-black border-2"
                     id=""
                     cols="30"
                     rows="8"
-                    placeholder="Your message"
+                    placeholder=" Your message"
                     name="message"
                   ></textarea>
                 </div>
-                <div className="col-8 form-group mx-auto">
+                <div className="col-8 form-group mb-6 text-xl">
                   <input
                     type="submit"
-                    className="btn btn-info"
-                    value="Send Message"
+                    className="btn btn-info rounded-md font-sec border-slate-800 border-black border-2 hover:text-white hover:bg-black hover:cursor-pointer"
+                    value=" Send Message "
                   ></input>
                 </div>
               </div>
