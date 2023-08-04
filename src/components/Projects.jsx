@@ -2,7 +2,7 @@ import projectManager from "../assets/ReleaseManagementRecreation.png";
 
 function Projects() {
   return (
-    <div className="flex justify-center flex-col mb-6">
+    <div id="projects-section" className="flex justify-center flex-col mb-6">
       <div className="flex justify-center h-auto">
         <div className="font-nav font-bold text-3xl m-6">Projects</div>
       </div>
@@ -25,14 +25,14 @@ function Projects() {
                 American Express
               </div>
               <p className="font-nav font-meduim text-normal text-justify mt-2 px-12 pb-5">
-                Month long internship at American Express, tasked with
-                developing a React Module project tracker for Amex scrum teams.
-                Leveraging React JS, Node and Docker, I designed a
-                well-structured table equipped with convenient features like
-                adding and editing project details, as well as time stamps to
-                track changes. Enhanced the user experience with seamless access
-                to update and monitor project information, including real-time
-                project status and updates.
+                
+              Release Management 2023 is a React Module built using
+              technologies such as React JS, Docker, AMEX DLS CSS library, and Node.
+              It provides a seamless platform for users to efficiently monitor and
+              manage projects scheduled throughout a given year. With its intuitive
+              interface and robust functionalities, the Scrum Project Manager streamlines
+              project management, enabling teams to stay organized and focused.
+                
               </p>
             </div>
           </div>

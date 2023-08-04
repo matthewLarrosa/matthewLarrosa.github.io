@@ -4,7 +4,7 @@ import fiuLogo from "../assets/FiuLogo.svg";
 
 function Education() {
   return (
-    <div className="flex justify-center mt-20">
+    <div id="about-section" className="flex justify-center mt-20">
       <div className="h-auto w-5/6 md:w-4/6 bg-slate-100 rounded-xl">
         <div className="flex flex-col justify-center space-y-10">
           <div className="flex flex-col justify-center text-center">

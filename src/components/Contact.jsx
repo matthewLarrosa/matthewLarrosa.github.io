@@ -28,7 +28,7 @@ function Contact() {
   };
 
   return (
-    <div className="flex justify-center flex-col mb-6">
+    <div id="contact-section" className="flex justify-center flex-col mb-16">
       <div className="flex justify-center h-auto">
         <div className="font-nav font-bold text-3xl m-6">Contact Me</div>
       </div>

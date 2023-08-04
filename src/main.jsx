@@ -7,6 +7,7 @@ import EducationInfo from './components/EducationInfo.jsx'
 import Internship from './components/Internship.jsx'
 import Projects from './components/Projects.jsx'
 import Contact from './components/Contact.jsx'
+import Footer from './components/Footer.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -16,5 +17,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Internship />
     <Projects />
     <Contact />
+    <Footer />
   </React.StrictMode>,
 )
