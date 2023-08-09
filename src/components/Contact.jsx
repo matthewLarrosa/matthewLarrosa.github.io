@@ -51,7 +51,7 @@ function Contact() {
                 <div className="col-8 form-group mb-2 text-xl">
                   <input
                     type="text"
-                    className="form-control rounded-md w-72 font-sec border-slate-800 border-black border-2"
+                    className="form-control rounded-md w-52 md:w-72 font-sec border-slate-800 border-black border-2"
                     placeholder=" Name"
                     name="name"
                   />
@@ -59,7 +59,7 @@ function Contact() {
                 <div className="col-8 form-group mb-2 text-xl">
                   <input
                     type="email"
-                    className="form-control rounded-md w-72 font-sec border-slate-800 border-black border-2"
+                    className="form-control rounded-md w-52 md:w-72 font-sec border-slate-800 border-black border-2"
                     placeholder=" Email Address"
                     name="email"
                   />
@@ -67,14 +67,14 @@ function Contact() {
                 <div className="col-8 form-group mb-2 text-xl">
                   <input
                     type="text"
-                    className="form-control rounded-md w-72 font-sec border-slate-800 border-black border-2"
+                    className="form-control rounded-md w-52 md:w-72 font-sec border-slate-800 border-black border-2"
                     placeholder=" Subject"
                     name="subject"
                   />
                 </div>
                 <div className="col-8 form-group mb-2 text-xl">
                   <textarea
-                    className="form-control rounded-md w-96 font-sec border-slate-800 border-black border-2"
+                    className="form-control rounded-md w-64 md:w-96 font-sec border-slate-800 border-black border-2"
                     id=""
                     cols="30"
                     rows="8"
