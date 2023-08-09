@@ -1,5 +1,5 @@
-{ "homepage": "https://matthewLarrosa.github.io/matthewLarrosa.github.io",
-  "name": "matthewLarrosa.github.io",
+{ "homepage": ".",
+  "name": "matthewlarrosa",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
