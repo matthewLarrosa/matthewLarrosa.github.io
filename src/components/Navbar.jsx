@@ -4,7 +4,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import headshot from "../assets/Headshot.svg";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
-import resume from "../assets/Matthew Larrosa Resume 2024.pdf";
+import resume from "../assets/Matthew Larrosa Website Resume.pdf";
 import { Link } from "react-scroll";
 
 export default function Navbar() {
